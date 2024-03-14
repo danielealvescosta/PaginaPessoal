@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+
+    <form action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="endereco">Endereço:</label>
+        <input type="endereco" id="endereco" name="endereco" required>
+
+        <label for="cidade">Cidade:</label>
+        
+        <select name=”cidades”>
+            <option value=””></option>
+            <option value=”hto”>Hortolândia</option>
+            <option value=”sum”>Sumaré</option>
+            <option value=”cps”>Campinas</option><br>
+        </select>
+
+        <label for="genero">Gênero:</label>
+        <input type="radio" name="genero" value="feminino" /> Feminino
+        <input type="radio" name="genero" value="masculino" /> Masculino <br>
+
+        <label for="curso">Cursos:</label>
+        <input type="checkbox" name="curso" value="analise e desenvolvimento de sistemas" /> Análise e Desenvolvimento
+        de Sistemas<br />
+        <input type="checkbox" name="curso" value="tecnico em informatica" /> Técnico em Informática<br />
+        <input type="checkbox" name="curso" value="tecnico em eletronica" /> Técnico em eletrônica<br />
+        <input type="checkbox" name="curso" value="pedagogia" /> Pedagogia
+
+        <label for="histórico escolar">Envie seu histórico escolar:</label>
+        <input type="file" />
+
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+
+</html>
